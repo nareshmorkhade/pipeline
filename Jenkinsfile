@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Replace with your repository URL
-                git ''
+                git 'https://github.com/nareshmorkhade/pipeline.git'
             }
         }
         stage('Build') {
