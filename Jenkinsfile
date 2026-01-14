@@ -9,9 +9,7 @@ pipeline {
         }
         stage('Build') {
             steps {
-                // Example: Run a shell command to build your application (e.g., compile code)
-               
-                // You can also use tools like Maven or Gradle here
+               sh 'ls-l'
             }
         }
         stage('Test') {
